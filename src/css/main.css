@@ -1,0 +1,72 @@
+.feedsmain{
+    display: flex;
+    flex: 0.6;
+    flex-direction: column;
+    margin-left: 13px;
+
+}
+
+
+.feedsmain .feeds__input{
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.feedsmain .feeds__input form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+.feedsmain .feeds__input form input[type='text']{
+    border-radius: 30px;
+    margin-left: 7px;
+    padding: 0px 10px;
+    height: 40px;
+    outline: 0px;
+    border: 1px solid #333;  
+    width: 500px;
+}
+.feedsmain .feeds__input form input[type='submit']{
+      font-size: 25px;
+      margin-left: 15px;
+      border-radius: 10px;
+      border-color: #333;
+      background-color: #fff;
+      cursor: pointer;
+      margin-top: 3px;
+      
+    }
+    .feedsmain .feeds__input form input[type='submit']:hover{
+    background-color: #eee;
+   
+    
+}
+
+.feed__option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.feed__option .option1{
+    display: flex;
+   align-items: center;
+   color: #333;
+   font-size: 15px;
+   border-radius: 5px;
+   padding: 10px 10px;
+}
+.feeds__form{
+    display: flex;
+}
+.feed__option .option1 :hover{
+    background-color: #eee;
+}
+.feed__option .option1 svg{
+    margin-right: 5px;
+  
+}
+
+

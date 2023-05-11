@@ -1,0 +1,54 @@
+.potsmain{
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.post__header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.post__headerleft{
+    display: flex;
+    align-items: center;
+}
+.potsmain .post__header .post_profile_detail h3{
+    font-size: 14px;
+    margin: 0;
+    margin-left: 10px;
+    color: #333;
+}
+.potsmain .post__header .post_profile_detail p{
+    font-size: 12px;
+    margin: 0;
+    margin-left: 10px;
+}
+.post_body{
+    font-size: 14px;
+    padding: 5px;
+}
+.post__footer{
+display: flex;
+border-top: 1px solid #ccc;
+padding-top: 10px;
+margin-top: 5px;
+}
+.post__option{
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+    margin-right: 25px;
+}
+.post__footer .post__option:hover{
+    background-color:  #cccccc;
+    cursor: pointer;
+}
+
+.post__footer .post__option span{
+    margin-left: 5px;
+    font-size: 14px;
+}
+.post__footer .post__option svg{
+    color: #333;
+}
